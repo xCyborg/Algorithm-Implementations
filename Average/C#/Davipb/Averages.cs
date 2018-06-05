@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace Average
 {
-	public static class Averages
+	public static class Averages //average dude
 	{
 		public static double ArithmeticMean(params double[] numbers)
 		{
-			return numbers.Average(); // That was easy
+			return numbers.Average(); // That was easy, sure, yeah...
 		}
 
 		public static double WeightedMean(double[] numbers, double[] weights)
